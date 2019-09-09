@@ -1,0 +1,102 @@
+{
+    "areas": {
+      "area1": {
+        "areaName": "The Hidden Leaf Village",
+        "areaDescription": "You're in the Hidden Leaf Village with no one to be seen everyone is gone.",
+        "areaIsEnd": false,
+        "possibleDirections": {
+          "north": 1,
+          "east": 2
+        },
+        "item": {
+          "itemName": "Oxyclean",
+          "isTreasure": false,
+          "isMonsterSlayer": false
+        }
+      },
+      "area2": {
+        "areaName": "The Village Hidden in the Sand",
+        "areaDescription": "You're in the Village in the Sand, and Gaara is using his sand jutsu to protect the village thus creating a blinding sand storm.",
+        "areaIsEnd": false,
+        "possibleDirections": {
+          "East": 2,
+          "South": 0
+        },
+        "item": {
+          "itemName": "Shuriken",
+          "isTreasure": false,
+          "isMonsterSlayer": false
+        },
+        "hazard": {
+          "hazardDesc": "Tobi is here with the Akatsuki to take you.",
+          "removeWith": "Oxyclean"
+        }
+      },
+      "area3": {
+        "areaName": "Jofuku Forest",
+        "areaDescription": "You're in the Jofuku Forest where the Chunin Exam is held.",
+        "areaIsEnd": true,
+        "possibleDirections": {
+          "West": 3,
+          "South": 0
+        },
+        "item": {
+          "itemName": "Poop",
+          "isTreasure": false,
+          "isMonsterSlayer": true
+        },
+        "hazard": {
+          "hazardDesc": "Sasuke was once here, and used his sharingan's amaterasu to light the whole area on fire.",
+          "removeWith": "Shuriken"
+        }
+      },
+      "area4": {
+        "areaName": "Grove Street",
+        "areaDescription": "You're in Grove Street, San Andreas, land of the free.",
+        "areaIsEnd": false,
+        "possibleDirections": {
+          "East": 2,
+          "NorthEast": 4 
+        },
+        "item": {
+          "itemName": "Infinity Gauntlet",
+          "isTreasure": true,
+          "isMonsterSlayer": false
+        }
+      },
+      "area5": {
+        "areaName": "Atlanta Santa",
+        "areaDescription": "You're in the Atlanta Santa where your pride is held.",
+        "areaIsEnd": false,
+        "possibleDirections": { 
+          "SouthWest": 5
+        }, 
+        "item": {
+          "itemName": "Golden Rod",
+          "isTreasure": false,
+          "isMonsterSlayer": false
+        }
+        
+      },
+      "area6": {
+        "areaName": "Drew's Skatepark",
+        "areaDescription": "You're in the Drew's skatepark where you can skateboard till your heart is content.",
+        "areaIsEnd": false,
+        "possibleDirections": { 
+          "South": 0,
+          "NorthEast": 4
+        },
+        "hazard": {
+          "hazardDesc": "Mr.s Clause is quite unsatisified, might be a good idea to get her some help.",
+          "removeWith": "Golden Rod"
+        }
+      }
+    },
+    "monster": [
+      {
+        "monsterName": "Thanos",
+        "monsterSpawn": 3
+      }
+    ],
+    "boardSize": 6
+  }

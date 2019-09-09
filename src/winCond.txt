@@ -1,0 +1,8 @@
+take oxyclean
+go east
+use oxyclean
+take poop
+use poop
+go west
+take infinity gauntlet
+go east
